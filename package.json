@@ -13,6 +13,7 @@
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-cachebust": "0.0.5",
+    "gulp-ccr": "git+https://github.com/gulp-ccr/gulp-ccr.git",
     "gulp-concat": "^2.5.2",
     "gulp-install": "^0.4.0",
     "gulp-jshint": "^1.10.0",
