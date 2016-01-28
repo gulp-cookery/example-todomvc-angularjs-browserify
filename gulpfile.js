@@ -85,7 +85,7 @@ var meal = chef({
   },
   serve: {
     description: 'Launch a build upon modification and publish it to a running server',
-    task: ['build', 'watch', 'webserver']
+    task: { parallel: ['watch', 'webserver'] }
   },
   sprite: {
     description: 'Generates a sprite png and the corresponding sass sprite map. This is not included in the recurring development build and needs to be run separately',
